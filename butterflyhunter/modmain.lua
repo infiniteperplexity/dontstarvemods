@@ -1,7 +1,9 @@
 
 local EQUIPSLOTS = GLOBAL.EQUIPSLOTS
 local distsq = GLOBAL.distsq
+local TheSim = GLOBAL.TheSim
 
+if TheSim:GetGameID()=="DS" then
 -----------------------------------
 -- Component mod example
 --
@@ -49,3 +51,8 @@ local function TargetButterflies(component)
     end
 end
 AddComponentPostInit("playercontroller", TargetButterflies)
+
+elseif TheSim:GetGameID()=="DST" then
+
+
+end
