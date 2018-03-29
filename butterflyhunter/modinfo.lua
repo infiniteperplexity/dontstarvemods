@@ -2,7 +2,7 @@
 name = "Butterfly Hunter"
 
 --A description of the mod.
-description = "Attack butterflies with the F button."
+description = "Attack butterflies with the F button. This may not seem like a server mod, but the client-only version only worked for the host and only when there were no caves."
 --Who wrote this awesome mod?
 author = "Glenn Wright"
 --A version number so you can ask people if they are running an old version of your mod.
